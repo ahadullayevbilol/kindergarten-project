@@ -1,0 +1,59 @@
+.wrapper{
+    margin: 0 auto;
+    width: 1110px;
+    height: fit-content;
+    margin-bottom: 90px;
+    h1 {
+        font-weight: 500;
+        font-size: 38px;
+        text-align: center;
+        color: blue;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+        color: #333;
+        margin-bottom: 40px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .card {
+        width: 210px;
+        height: 100%;
+
+        img {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 1130px) {
+    .wrapper {
+        width: 100%;
+
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            width: 100%;
+        } 
+    }
+       
+}
