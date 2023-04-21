@@ -1,0 +1,159 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1240px;
+    height: fit-content;
+    margin-bottom: 90px;
+
+    .girl_image {
+        width: 620px;
+        height: 100%;
+
+        img {
+            width: 100%;
+            
+        }
+    }
+
+    .about_info {
+        width: 590px;
+        height: 100%;
+
+        h1 {
+            font-size: 36px;
+            color: #F39F5E;
+        }
+
+        h2 {
+            font-size: 50px;
+            color: #385469;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #385469B2;
+            margin-bottom: 40px;
+        }
+
+        .experience {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 147px;
+            margin-bottom: 60px;
+
+            .experience_img {
+                width: 80px;
+                height: 80px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            div {
+                width: 434px;
+                height: 100%;
+
+                h2 {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .unique {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 147px;
+            margin-bottom: 20px;
+
+            .unique_img {
+                width: 80px;
+                height: 80px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            div {
+                width: 434px;
+                height: 100%;
+
+                h2 {
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #F39F5E;
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1250px){
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+}
+
+@media (max-width: 640px){
+    .about {
+        .about_info {
+            width: 100%;
+        }
+
+        h1 {
+            padding-left: 15px;
+        }
+
+        h2 {
+            padding-left: 15px;
+        }
+
+         p {
+            padding-left: 15px;
+         }
+    }
+
+    .girl_image {
+        width: 100%;
+    }
+
+    .teachers_info {
+        width: 100%;
+    }
+
+    .experience {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .unique {
+        width: 100%;
+    }
+}

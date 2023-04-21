@@ -1,8 +1,9 @@
 import './App.scss';
 import Header from "./components/Header/Header";
 import MainSlider from './components/MainSlider/MainSlider';
-import Welcoming from './components/Welcoming/Welcoming';
 import Information from './components/Information/Information';
+import About from './components/About/About';
+import Curriculum from './components/Curriculum/Curriculum';
 function App() {
 
 
@@ -11,8 +12,9 @@ function App() {
     <>
       <Header />
       <MainSlider />
-      <Welcoming /> 
       <Information />
+      <About /> 
+      <Curriculum />  
     </>
   );
 }

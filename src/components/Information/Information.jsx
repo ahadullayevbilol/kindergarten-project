@@ -1,5 +1,4 @@
 import React from 'react'
-import {VscSearch} from 'react-icons/vsc'
 import './Information.scss'
 import animal from './assets/animal.png'
 import cactus from './assets/cactus.png'

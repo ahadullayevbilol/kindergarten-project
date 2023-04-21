@@ -4,13 +4,14 @@
     justify-content: space-around;
     position: relative;
     margin: 0 auto;
-    width: 1110px;
-    height: 500px;
-    background-color: #f4eee5;
+    width: 1240px;
+    height: 524px;
+    background-color: #F4EEE5;
     border-top-left-radius: 40%;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 100px;
+    margin-bottom: 90px;
 
     .animal {
         position: absolute;
@@ -35,7 +36,7 @@
 
         h1 {
             text-align: center;
-            color: lightblue;
+            color: #BFD7DB;
             font-size: 48px;
         }
 
@@ -58,7 +59,7 @@
 
         h1 {
             text-align: center;
-            color: lightblue;
+            color: #BFD7DB;
             font-size: 48px;
         }
 
@@ -79,7 +80,7 @@
 
         h1 {
             text-align: center;
-            color: lightblue;
+            color: #BFD7DB;
             font-size: 48px;
         }
 
@@ -96,14 +97,12 @@
     }
 }
 
-@media (max-width: 1130px){
+@media (max-width: 1250px){
     .information{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
         width: 95%;
-        height: fit-content;
+        height: 600px;
         border-top-left-radius: 80px;
         border-top-right-radius: 80px;
         border-bottom-left-radius: 80px;
@@ -117,5 +116,11 @@
         .hours-worked {
             border: 0;
         }
+    }
+}
+
+@media (max-width: 650px){
+    .information {
+        height: fit-content;
     }
 }

@@ -3,7 +3,7 @@
   width: 100%;
   height: 100vh;
   position: absolute;
-  z-index: 2;
+  z-index: 3;
 
   nav {
     width: 500px;
@@ -65,7 +65,9 @@
 
 .header {
   width: 100%;
+  height: fit-content;
   padding: 10px;
+  background-color: #fff;
 
   .header_content {
     display: flex;
@@ -81,7 +83,7 @@
       font-size: 25px;
       font-weight: 900;
       font-family: sans-serif;
-      color: deeppink;
+      color: #F39F5E;
 
       img {
         width: 100px;
@@ -112,7 +114,7 @@
             margin-right: 25px;
           }
           &:hover{
-            color: deeppink;
+            color: #F39F5E;
           }
 
           span {
@@ -158,7 +160,7 @@
 }
 
 .active {
-  color: deeppink;
+  color: #F39F5E;
 }
 
 @media (max-width: 1300px) {
