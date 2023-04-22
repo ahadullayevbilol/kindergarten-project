@@ -32,7 +32,7 @@ const About = () => {
                     <p>Unique approach Justo proin amet faucibus sed eu. Nisi mauris, vulputate ut ut habitant id diam, accumsan. Convallis neque, pretium ac malesuada sit at amet aliquam. Scelerisque vivamus amet sed vitae ac amet.</p>
                 </div>
             </div>
-            <button type='button'>Ko'proq ma'lumot</button>
+            <button type='button'>Batafsil</button>
         </div>
     </div>
   )
