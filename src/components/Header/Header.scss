@@ -1,7 +1,7 @@
 .toggle_header {
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   z-index: 3;
 
@@ -11,7 +11,6 @@
     background: white;
     opacity: 1;
     padding: 30px 20px;
-    
 
     .logo {
       display: flex;
@@ -32,7 +31,6 @@
     .navbar {
       width: 100%;
       height: fit-content;
-
       ul {
         width: 100%;
 
@@ -54,7 +52,7 @@
     width: 79%;
     height: 100%;
     background: black;
-    opacity: .3;
+    opacity: 0.3;
     padding: 30px;
     display: flex;
     color: white;
@@ -83,7 +81,7 @@
       font-size: 25px;
       font-weight: 900;
       font-family: sans-serif;
-      color: #F39F5E;
+      color: #f39f5e;
 
       img {
         width: 100px;
@@ -113,8 +111,8 @@
           &:not(:last-child) {
             margin-right: 25px;
           }
-          &:hover{
-            color: #F39F5E;
+          &:hover {
+            color: #f39f5e;
           }
 
           span {
@@ -160,7 +158,7 @@
 }
 
 .active {
-  color: #F39F5E;
+  color: #f39f5e;
 }
 
 @media (max-width: 1300px) {
@@ -172,6 +170,30 @@
 
       .toggle {
         display: flex;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .toggle_header {
+    
+    nav {
+
+      .logo {
+        font-size: 24px;
+        margin-bottom: 1px;
+      }
+
+      .navbar {
+        font-size: 16px;
+        
+        ul {
+
+          li {
+            font-size: 16px;
+          }
+        }
       }
     }
   }

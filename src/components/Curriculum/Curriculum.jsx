@@ -1,6 +1,7 @@
 import React from 'react'
 import './Curriculum.scss'
-import jumiorGroupImg from './assets/junior_group_img.png'
+import JuniorGroup from './JunoirGroup/JuniorGroup'
+import MiddleGroup from './MiddleGroup/MiddleGroup'
 
 const Curriculum = () => {
   return (
@@ -25,28 +26,8 @@ const Curriculum = () => {
           <h1>O'QUV REJASI</h1>
           <p>Bizning dasturlarimiz</p>
           <div className="groups">
-            <div className='junior_group'>
-              <h2>Yoshlar guruhi</h2>
-              <p>3-4 yosh</p>
-              <div className='junior_group_info'>
-                <div className='group'>
-                  <ul>
-                    <li>Nutqni rivojlantirish</li>
-                    <li>Ijtimoiy muloqot qobiliyatlari</li>
-                    <li>Jismoniy rivojlanish</li>
-                    <li>Ijodkorlikni rivojlantirish</li>
-                    <li>Qobiliyatlarni rivojlantirish</li>
-                  </ul>
-                </div>
-                  <div className="group_img">
-                    <img src={jumiorGroupImg} alt="jumiorGroupImg" />
-                  </div>
-              </div>
-            </div>
-            <div className='middle_group'>
-              <h2>Kattalar guruhi</h2>
-              <p>5-6 yosh</p>
-            </div>
+             <JuniorGroup/> 
+             <MiddleGroup/>
           </div>
     </div>
   )

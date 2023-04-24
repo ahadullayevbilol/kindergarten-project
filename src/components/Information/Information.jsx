@@ -1,12 +1,11 @@
 import React from 'react'
 import './Information.scss'
-import animal from './assets/animal.png'
 import cactus from './assets/cactus.png'
 
 const Information = () => {
   return (
     <div className='information'>
-      <img src={animal} alt="animal" className='animal' />
+      {/* <img src={animal} alt="animal" className='animal' /> */}
       <img src={cactus} alt="cactus" className='cactus'/>
       <div className='happy-children'>
           <h1>350+</h1>

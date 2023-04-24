@@ -1,0 +1,34 @@
+.advantage {
+    margin: 0 auto;
+    width: 1290px;
+    height: fit-content;
+    margin-bottom: 90px;
+
+    h2 {
+        font-size: 16px;
+        text-align: center;
+        color: #f39f5f;
+        margin-bottom: 12px;
+    }
+
+    p {
+        font-size: 54px;
+        color: #385469;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .advantage {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .advantage {
+        p {
+            font-size: 24px;
+        }
+    }
+}

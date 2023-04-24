@@ -125,7 +125,36 @@
 @media (max-width: 640px){
     .about {
         .about_info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
             width: 100%;
+
+            button {
+                margin: 0 auto;
+                width: 96%;
+                height: 70px;
+                font-size: 32px;
+             }
+        }
+
+        .teachers_info {
+            width: 100%;
+            // background-color: green;
+        }
+    
+        .experience {
+            width: 100%;
+            height: fit-content;
+            padding: 20px;
+            // background-color: green;
+        }
+    
+        .unique {
+            width: 100%;
+            padding: 20px;
+            // background-color: green;
         }
 
         h1 {
@@ -139,24 +168,38 @@
          p {
             padding-left: 15px;
          }
+         
     }
 
     .girl_image {
         width: 100%;
     }
 
-    .teachers_info {
-        width: 100%;
-    }
+    
+}
 
-    .experience {
-        width: 100%;
-        height: fit-content;
-        padding: 20px;
-    }
+@media (max-width: 390px) {
+    .about {
 
-    .unique {
-        width: 100%;
-        padding: 20px;
+        .about_info {
+
+            .experience {
+                margin: 0;
+                // background-color: red;
+                height: fit-content;
+            }
+
+            .unique {
+                height: fit-content;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
     }
 }
