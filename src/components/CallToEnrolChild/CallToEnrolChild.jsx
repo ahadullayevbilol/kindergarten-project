@@ -9,7 +9,7 @@ const CallToEnrolChild = () => {
                 <div className="phone_number">
                     <h1>Hoziroq O'rningizni band qilish</h1>
                     <p>Farzandingizni ro'yxatga olish uchun qo'ng'iroq qiling</p>
-                    <h3>+998-90-608-02-08</h3>
+                    <h3>+998-99-777-77-77</h3>
                 </div>
             </div>
         </div>

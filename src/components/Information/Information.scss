@@ -98,7 +98,6 @@
         width: 95%;
         height: fit-content;
         padding: 70px;
-
         .happy-children {
             border: 0;
         }
@@ -117,6 +116,7 @@
 
 @media (max-width: 555px) {
     .information {
+        row-gap: 120px;
         .cactus {
             display: none;
         }

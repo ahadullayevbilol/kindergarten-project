@@ -3,6 +3,7 @@ import './About.scss'
 import girl from './assets/happy-girl.jpg'
 import experience from './assets/experince_img.png'
 import unique from './assets/unique_img.png'
+import { NavLink } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -32,7 +33,11 @@ const About = () => {
                     <p>Unique approach Justo proin amet faucibus sed eu. Nisi mauris, vulputate ut ut habitant id diam, accumsan. Convallis neque, pretium ac malesuada sit at amet aliquam. Scelerisque vivamus amet sed vitae ac amet.</p>
                 </div>
             </div>
-            <button type='button'>Batafsil</button>
+            <button className='button' type='button'>
+                <NavLink className={"button"} to="/about">
+                    Batafsil
+                </NavLink>
+            </button>
         </div>
     </div>
   )

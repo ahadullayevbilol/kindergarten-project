@@ -1,15 +1,16 @@
 import "./Header.scss";
 import logo from "./../../img/logo.png";
-import {useState} from "react";
-
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 const Header = () => {
-
   const [toggle, setToggle] = useState(false);
 
   const openModal = () => {
-    setToggle(!toggle)
-    toggle ? document.body.style.overflow = "scroll" : document.body.style.overflow = "hidden"
-  }
+    setToggle(!toggle);
+    toggle
+      ? (document.body.style.overflow = "scroll")
+      : (document.body.style.overflow = "hidden");
+  };
 
   return (
     <>
@@ -22,23 +23,35 @@ const Header = () => {
             </div>
             <div className="navbar">
               <ul>
-                <li>
-                  <h4>Bosh sahifa</h4>
+                <li className="a">
+                  <NavLink className={"a"} to="/">
+                    Bosh sahifa
+                  </NavLink>
                 </li>
-                <li>
-                  <h4>Biz haqimizda</h4>
+                <li className="a">
+                  <NavLink className={"a"} to="/about">
+                    Biz haqimizda
+                  </NavLink>
                 </li>
-                <li>
-                  <h4>Guruhlar</h4>
+                <li className="a">
+                  <NavLink className={"a"} to="/groups">
+                    Guruhlar
+                  </NavLink>
                 </li>
-                <li>
-                  <h4>O'qituvchilar</h4>
+                <li className="a">
+                  <NavLink className={"a"} to="/teachers">
+                    O'qituvchilar
+                  </NavLink>
                 </li>
-                <li>
-                  <h4>Rasmlar</h4>
+                <li className="a">
+                  <NavLink className={"a"} to="/images">
+                    Rasmlar
+                  </NavLink>
                 </li>
-                <li>
-                  <h4>Bog'lanish</h4>
+                <li className="a">
+                  <NavLink className={"a"} to="/contact">
+                    Bog'lanish
+                  </NavLink>
                 </li>
               </ul>
             </div>
@@ -54,22 +67,36 @@ const Header = () => {
           </div>
           <nav>
             <ul>
-              <li className="active">
-                Bosh sahifa
+              <li className="a">
+                <NavLink className={"a"} to="/">
+                  Bosh sahifa
+                </NavLink>
               </li>
-              <li>
-                Biz haqimizda
+              <li className="a">
+                <NavLink className={"a"} to="/about">
+                  Biz haqimizda
+                </NavLink>
               </li>
-              <li>
-                Guruhlar
+              <li className="a">
+                <NavLink className={"a"} to="/groups">
+                  Guruhlar
+                </NavLink>
               </li>
-              <li>
-                O'qituvchilar
+              <li className="a">
+                <NavLink className={"a"} to="/teachers">
+                  O'qituvchilar
+                </NavLink>
               </li>
-              <li>
-               Rasmlar
+              <li className="a">
+                <NavLink className={"a"} to="/images">
+                  Rasmlar
+                </NavLink>
               </li>
-              <li>Bog'lanish</li>
+              <li className="a">
+                <NavLink className={"a"} to="/contact">
+                  Bog'lanish
+                </NavLink>
+              </li>
             </ul>
           </nav>
           <div className="toggle" onClick={openModal}>

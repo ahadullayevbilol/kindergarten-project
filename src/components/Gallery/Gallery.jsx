@@ -46,7 +46,7 @@ const Gallery = () => {
                 prevEl: '.swiper-button-prev',
                 clickable: true
             }}
-            modules={[EffectCoverflow,Pagination,Navigation]}
+            modules={[EffectCoverflow, Pagination, Navigation]}
             className='swiper_container'
         >
             <SwiperSlide className='swiper'>
