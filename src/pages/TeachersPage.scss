@@ -1,0 +1,202 @@
+.teachers_photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1240px;
+    height: 440px;
+    margin: 0 auto;
+
+    .teacher1 {
+        width: 210px;
+        height: 324px;
+        background-color: #333333;
+        opacity: 0.3;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .teacher2 {
+        width: 210px;
+        height: 324px;
+        background-color: #333333;
+        opacity: 0.3;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .teacher3 {
+        width: 210px;
+        height: 324px;
+        background-color: #333333;
+        opacity: 0.3;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.teachers_info {
+    width: 1340px;
+    height: 500px;
+    margin: 0 auto;
+
+    .teacher_name {
+        width: fit-content;
+        height: 100px;
+
+        h2 {
+            font-size: 24px;
+            color: #333333;
+        }
+
+        h3 {
+            width: fit-content;
+            font-size: 14px;
+            color: #333333;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #0097a7;
+        }
+    }
+
+    .teacher_info {
+        display: flex;
+        justify-content: space-between;
+        width: 1140px;
+        height: fit-content;
+        margin: 0 auto;
+
+        .teacher_img {
+            width: 210px;
+            height: fit-content;
+        }
+
+        .teacher_about {
+            width: 360px;
+            height: fit-content;
+
+            h4 {
+                width: fit-content;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                font-size: 24px;
+                color: #333333;
+                border-bottom: 3px solid #0097a7;
+            }
+
+            p {
+                font-size: 14px;
+                color: #333333;
+            }
+        }
+
+        .teacher_skills {
+            width: 390px;
+            height: 100%;
+
+            h4 {
+                width: fit-content;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                font-size: 24px;
+                color: #333333;
+                border-bottom: 3px solid #0097a7;
+            }
+            div:not(:last-child){
+                margin-bottom: 15px;
+            }
+
+            .graphic {
+                width: 100%;
+                height: 45px;
+                background-color: #f8f8f8;
+
+                .graphic2 {
+                    padding: 10px 20px;
+                    width: 85%;
+                    height: 100%;
+                    background-color: #EDBF47;
+                    h2 {
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .drawing {
+                width: 100%;
+                height: 45px;
+                background-color: #f8f8f8;
+
+                .drawing2 {
+                    padding: 10px 20px;
+                    width: 75%;
+                    height: 100%;
+                    background-color: #0097a7;
+                    h2 {
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .paint {
+                width: 100%;
+                height: 45px;
+                background-color: #f8f8f8;
+
+                .paint2 {
+                    padding: 10px 20px;
+                    width: 65%;
+                    height: 100%;
+                    background-color: #6FC191;
+                    h2 {
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .music {
+                width: 100%;
+                height: 45px;
+                background-color: #f8f8f8;
+
+                .music2 {
+                    padding: 10px 20px;
+                    width: 99%;
+                    height: 100%;
+                    background-color: rgba(236, 119, 75);
+                    h2 {
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .sport {
+                width: 100%;
+                height: 45px;
+                background-color: #f8f8f8;
+
+                .sport2 {
+                    padding: 10px 20px;
+                    width: 75%;
+                    height: 100%;
+                    background-color: rgb(225, 108, 108);
+                    h2 {
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

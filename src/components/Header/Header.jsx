@@ -7,9 +7,6 @@ const Header = () => {
 
   const openModal = () => {
     setToggle(!toggle);
-    toggle
-      ? (document.body.style.overflow = "scroll")
-      : (document.body.style.overflow = "hidden");
   };
 
   return (

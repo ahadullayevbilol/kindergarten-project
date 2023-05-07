@@ -4,6 +4,7 @@
   height: 100%;
   position: absolute;
   z-index: 3;
+  position: fixed;
 
   nav {
     width: 500px;
@@ -41,7 +42,7 @@
           justify-content: space-between;
           text-decoration: none;
           list-style: none;
-          margin-bottom: 16px;
+          margin-bottom: -8px;
           color: #333;
           padding: 10px;
           font-size: 20px;
